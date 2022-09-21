@@ -12,7 +12,10 @@ const tourRoute = require('./routes/tour.route')
 
 
 app.get("/", (req, res) => {
-  res.send("Welcome to My tour management");
+  res.send("Welcome to ACC Tour management");
+});
+app.get("/api/v1/", (req, res) => {
+  res.send("Welcome to ACC Tour management");
 });
 
 // posting to database
